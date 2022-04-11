@@ -1,0 +1,11 @@
+name: ci
+on: [push]
+jobs:
+  unit-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: récupération du repository
+        uses: actions/checkout@v3
+      - name: vue du contenu
+        run: ls
+        
