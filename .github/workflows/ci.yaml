@@ -15,4 +15,4 @@ jobs:
       - name: test unitaires
         run: npm run test
       - name: coverage
-        run: npm run cober
+        run: npm run cover
